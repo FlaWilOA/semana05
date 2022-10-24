@@ -1,0 +1,14 @@
+body{
+    background-color: tomato;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+.container > div ,p{
+    width: 50%;
+    color: blue;
+    padding: 0px;
+  }
